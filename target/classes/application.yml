@@ -1,0 +1,10 @@
+management:
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include:
+        - health
+  endpoint:
+    health:
+      enabled: true
